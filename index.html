@@ -1,0 +1,183 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Instagram Feed</title>
+<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<style>
+
+body, html {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	background: #F2F2F2;
+	font-family: 'Lato', sans-serif;
+}
+
+h1, h2 {
+	padding: 0;
+	margin: 0;
+}
+
+#_insta_feed_outer {
+	width: 100%;
+	height: 100%;
+	box-sizing: border-box;
+	padding: 40px;
+	background: #F2F2F2;
+}
+
+#_insta_feed_inner {
+	width: 100%;
+	height: 100%;
+	background: white;
+}
+
+.half {
+	width: 50%;
+	height: 100%;
+	float: left;
+}
+
+#_insta_feed_copy {
+	box-sizing: border-box;
+	padding: 90px;
+}
+
+#_insta_feed_copy article {
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+	text-align: center;
+}
+
+#_insta_feed_copy button {
+	width: 30%;
+	padding: 15px 0;
+	border: none;
+	border: 2px solid black;
+	outline: none;
+	background: none;
+	cursor: pointer;
+	transition: all ease 0.5s;
+}
+
+#_insta_feed_copy button:hover {
+	background: black;
+	color: white;
+}
+
+#_insta_feed_imgs div {
+	width: 50%;
+	height: 50%;
+	float: left;
+	text-align: center;
+	cursor: pointer;
+}
+
+#_insta_feed_imgs div i {
+	color: red;
+}
+
+#_insta_feed_imgs div article {
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+	opacity: 0;
+	transition: all ease 0.5s;
+}
+
+#_insta_feed_imgs div:hover article {
+	opacity: 1;
+}
+
+#_insta_feed_imgs div h1 {
+	font-size: 1.1em;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div id="_insta_feed_outer">
+
+    <div id="_insta_feed_inner">
+    
+        <div id="_insta_feed_copy" class="half">
+            
+            <article>
+                
+                <img src="" />
+               
+                <hgroup>
+                    <h1>This is a Instagram Feed</h1>
+                    <h2>#JAVASCRIPT</h2>
+                </hgroup>
+            
+                <p>Your passions are your everyday, how you spend every waking hour. We see the smile on your face, but only your eyes tell the real story. Does the world see what makes you happy?</p>
+                
+                <button>SEE MORE</button>
+            
+            </article>
+        
+        </div> <!-- _insta_copy -->
+        
+        <!--------------------------------------------->
+        
+        <div id="_insta_feed_imgs" class="half">
+            
+            <div>
+            	<img src="#" alt="" />
+                <article>
+                	<h1>2 Days ago</h1>
+                    <p><i class="fa fa-heart" aria-hidden="true"></i> 100 Likes</p>
+                </article>
+            </div>
+            
+            <div>
+            	<img src="#" alt="" />
+                <article>
+                	<h1>3 Days ago</h1>
+                    <p><i class="fa fa-heart" aria-hidden="true"></i> 77 Likes</p>
+                </article>
+            </div>
+            
+            <div>
+            	<img src="#" alt="" />
+                <article>
+                	<h1>4 Days ago</h1>
+                    <p><i class="fa fa-heart" aria-hidden="true"></i> 30 Likes</p>
+                </article>
+            </div>
+            
+            <div>
+            	<img src="#" alt="" />
+                <article>
+                	<h1>5 Days ago</h1>
+                    <p><i class="fa fa-heart" aria-hidden="true"></i> 82 Likes</p>
+                </article>
+            </div>
+        
+        </div> <!-- _insta_imgs -->
+    
+    </div> <!-- _insta_feed_inner -->
+    
+</div> <!-- _insta_feed_outer -->
+
+
+<script>
+
+window.onload = function() {
+	
+	
+	
+}
+
+</script>
+
+</body>
+</html>
